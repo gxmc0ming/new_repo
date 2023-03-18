@@ -1,14 +1,4 @@
-%YAML:1.0
----
-CLOCK_calib_version: 
-CLOCK_calib_details: 
-CLOCK_calib_date: 
-sensor_name: "radar_front"  # 传感器命名
-sensor_type: conti_MRR # 传感器类型
-
-timestamp_shift: 0  # 时间戳延时, 单位 ms, 真实时间戳 = 得到时间戳 + timestamp_shift
-vehicle_xyz: front_left_up  # 车体系定义, 前左上, 后轴中心接地点
-r_s2b:  # 传感器到车体系的旋转, i.e. p_b = R(r_s2b)*p_s, p_b表示车体系下的点, R(.)表示把旋转向量转换成旋转矩阵的函数, p_s表示传感器系的点
+r_s2b:  # 传感器到车体系的旋转
   [3.1415926, 0 , 0]
-t_s2b:  # 传感器到车体的平移, 单位 m
+t_s2b:  # 传感器到车体的平移
   [4.052,  -0.17,  0.677]

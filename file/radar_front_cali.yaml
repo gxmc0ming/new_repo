@@ -1,9 +1,2 @@
-CLOCK_calib_version: ~
-CLOCK_calib_details: ~
-CLOCK_calib_date: ~
-sensor_name: radar_front
-sensor_type: conti_MRR
-timestamp_shift: 0
-vehicle_xyz: front_left_up
 r_s2b: [3.1415926, 0, 0]
 t_s2b: [4.052, -0.17, 0.677]
